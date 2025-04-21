@@ -47,6 +47,15 @@ Arguments:
 - `-m` : output MAP file
 
 ---
+## Outputs
+
+After running the script, you will get:
+
+- **PHYLIP file** (`.phy`)  
+  A multiple sequence alignment file, where each individual is split into two pseudohaplotypes (`a` and `b` suffixes).
+
+- **MAP file** (`.txt`)  
+  A table mapping each pseudohaplotype to its species/population name. (Required input for HyDe.)
 
 ## Requirements
 
